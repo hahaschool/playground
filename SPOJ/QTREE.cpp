@@ -1,19 +1,11 @@
 #include <iostream>
-
 #include <algorithm>
-
 #include <cstdio>
-
 #include <cstdlib>
-
 #include <vector>
-
 #include <string>
-
 #include <map>
-
 #include <set>
-
 #include <queue>
 
 using namespace std;
@@ -38,11 +30,6 @@ struct Graph{
     }
 
 } gph;
-
-
-
-
-
 
 int siz[MAXV],dep[MAXV],par[MAXV];
 void dfs_preproc(int cur,int par,int _dep = 0){
