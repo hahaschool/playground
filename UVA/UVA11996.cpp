@@ -236,6 +236,5 @@ int main(){
 #ifndef ONLINE_JUDGE
     printf("Time Elapsed: %luMS\n",(clock() - clk)/CLK_TCK/10);
 #endif
-    
     return 0;
 }

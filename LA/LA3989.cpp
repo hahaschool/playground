@@ -71,7 +71,6 @@ void solve(){
             }
         }
     }
-    
     for(int i = 1; i <= n; i++){
         printf("%d\n",Mb[i]);
     }
