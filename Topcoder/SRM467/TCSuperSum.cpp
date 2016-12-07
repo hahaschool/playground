@@ -81,6 +81,7 @@ int main(){
     clock_t clk = clock();
 #endif
     
+    
     int k,n;
     SuperSum solver;
     while (cin >> k >> n) {
